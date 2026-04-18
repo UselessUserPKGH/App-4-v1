@@ -1,4 +1,4 @@
-продолжить с п.6
+<h1 style="font-size:72px">продолжить с п.6</h1>
 
 
 Inventory app
