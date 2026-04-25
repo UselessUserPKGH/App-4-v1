@@ -1,32 +1,25 @@
-<h1 style="{font-size:72px}">продолжить с п.6</h1>
-
-
-Inventory app
-==================================
-
-Solution code for Android Basics with Compose.
-
-Introduction
-------------
-
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
-
-Pre-requisites
---------------
-
-You need to know:
-- How to create and use composables.
-- How to navigate between composables, and pass data between them.
-- How to use architecture components including ViewModel, Flow, StateFlow and StateUi.
-- How to use coroutines for long-running tasks.
-- SQLite database and the SQLite query language
-
-
-Getting Started
----------------
-
-1. Download and run the app.
+Inventory App (Приложение для учета товаров)
+О проекте
+Приложение предназначено для отслеживания инвентаря на складе. Оно позволяет пользователю:
+Добавлять новые товары в базу данных.
+Обновлять информацию о существующих позициях.
+Отмечать продажу товаров (уменьшение остатка).
+Удалять позиции из списка.
+Технологический стек
+В данном проекте демонстрируется использование современных компонентов Android Jetpack:
+Room Database — для локального хранения данных.
+ViewModel — для управления данными экрана и связи с логикой.
+Flow / StateFlow — для реактивного обновления интерфейса при изменении данных.
+Navigation — для перемещения между экранами приложения.
+Jetpack Compose — для создания декларативного пользовательского интерфейса.
+Требования к знаниям
+Для работы с этим проектом желательно понимать:
+Создание и использование Composables.
+Принципы навигации и передачи данных между экранами.
+Архитектурные компоненты (ViewModel, Flow, State).
+Использование Coroutines (корутин) для фоновых операций.
+Основы баз данных SQLite и язык запросов.
+Как начать
+Склонируйте репозиторий.
+Откройте проект в Android Studio.
+Соберите и запустите приложение на эмуляторе или реальном устройстве
