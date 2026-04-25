@@ -30,7 +30,7 @@
 ## 🚀 Быстрый старт
 1. Скачайте проект или склонируйте репозиторий:
    ```bash
-   git clone https://github.com/
+   git clone https://github.com/](https://github.com/UselessUserPKGH/App-4-v1.git)
 2. Откройте проект в **Android Studio**.
 3. Дождитесь завершения синхронизации Gradle.
 4. Запустите приложение на эмуляторе или физическом устройстве.
