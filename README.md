@@ -1,29 +1,37 @@
-Inventory app
-==================================
+# Inventory App — Приложение для учета товаров
 
-Solution code for Android Basics with Compose.
+**Inventory App** — это учебный проект, представляющий собой решение задачи из курса . Приложение демонстрирует работу с локальной базой данных и архитектурными компонентами Jetpack.
 
-Introduction
-------------
+## 📝 Описание
+Приложение позволяет управлять списком товаров на складе. С его помощью можно отслеживать остатки, добавлять новые позиции и управлять текущим ассортиментом в режиме реального времени.
 
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
+**Основные функции:**
+*    **Добавление**: создание новых записей о товарах.
+*    **Обновление**: редактирование информации о существующих позициях.
+*    **Продажа**: быстрое уменьшение количества товара в один клик.
+*    **Удаление**: очистка базы от ненужных позиций.
 
-Pre-requisites
---------------
+## 🛠 Технологический стек
+Проект построен на современных библиотеках Android-разработки:
+*   **[Room](https://android.com)** — абстракция над SQLite для надежного хранения данных.
+*   **[Jetpack Compose](https://android.com)** — современный декларативный UI.
+*   **[ViewModel](https://android.com)** — управление состоянием UI и жизненным циклом.
+*   **[Flow / StateFlow](https://android.com)** — реактивные потоки данных.
+*   **[Navigation](https://android.com)** — навигация между экранами.
 
-You need to know:
-- How to create and use composables.
-- How to navigate between composables, and pass data between them.
-- How to use architecture components including ViewModel, Flow, StateFlow and StateUi.
-- How to use coroutines for long-running tasks.
-- SQLite database and the SQLite query language
+## 🎓 Необходимые навыки
+Для понимания кода проекта требуются знания в следующих областях:
+- Создание и композиция **Composables**.
+- Навигация между экранами и передача аргументов.
+- Работа с архитектурой (ViewModel, UI State).
+- Использование **Coroutines** для асинхронных операций.
+- Основы **SQLite** и написание запросов.
 
+## 🚀 Быстрый старт
+1. Скачайте проект или склонируйте репозиторий:
+   ```bash
+   git clone https://github.com/](https://github.com/UselessUserPKGH/App-4-v1.git)
+2. Откройте проект в **Android Studio**.
+3. Дождитесь завершения синхронизации Gradle.
+4. Запустите приложение на эмуляторе или физическом устройстве.
 
-Getting Started
----------------
-
-1. Download and run the app.
